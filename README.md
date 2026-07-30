@@ -2,7 +2,7 @@
 
 ##  Overview
 
-Space Defender is a responsive 2D space shooter game built with Phaser 3. The player controls a spaceship, destroys falling asteroids using rockets, avoids collisions, and tries to reach the target score to win the game.
+Space Defender is a responsive 2D space shooter game built with Phaser 3. The player controls a spaceship, destroys falling rocks using rockets, avoids collisions, and tries to reach the target score to win the game.
 
 The project was developed as part of a Phaser 3 Technical Assessment with a focus on clean code, responsiveness, performance, and reusable game logic.
 
@@ -10,11 +10,15 @@ The project was developed as part of a Phaser 3 Technical Assessment with a focu
 
 #  Objective
 
-Destroy asteroids to earn points.
+# 🎯 Objective
 
-Reach **200 points** to win the game.
+Control the spaceship and destroy falling asteroids to earn points.
 
-Avoid collisions with asteroids because the player has only **3 lives**.
+The game features 5 progressive levels, with the difficulty increasing as your score grows. Each new level introduces faster asteroid movement, making the game more challenging.
+
+Reach 200 points to complete all levels and win the game.
+
+Avoid collisions with asteroids, as the player has only 3 lives before the game ends.
 
 ---
 
